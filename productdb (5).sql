@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 09, 2025 at 09:41 PM
+-- Generation Time: Mar 10, 2025 at 10:34 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.1.25
 
@@ -64,9 +64,7 @@ CREATE TABLE `tblproduct` (
 
 INSERT INTO `tblproduct` (`product_id`, `product_code`, `product_name`, `price`, `quantity`, `image`) VALUES
 (3, 'P-001', 'ผักออแกนิค', 50.00, 30, '1741145352353.jpg'),
-(4, 'P-002', 'แคร์รอท', 50.00, 30, '1741145475135.jpg'),
-(5, 'P-003', 'ผักกาด', 50.00, 30, '1741145597297.jpg'),
-(6, 'P-004', 'นม', 50.00, 30, '1741145663097.jpg');
+(4, 'P-002', 'แคร์รอท', 50.00, 30, '1741145475135.jpg');
 
 --
 -- Indexes for dumped tables
@@ -98,7 +96,7 @@ ALTER TABLE `tbladmin`
 -- AUTO_INCREMENT for table `tblproduct`
 --
 ALTER TABLE `tblproduct`
-  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
